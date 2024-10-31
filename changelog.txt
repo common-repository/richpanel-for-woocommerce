@@ -1,0 +1,145 @@
+*** WooCommerce Extension Template Changelog ***
+2024-01-20 - version 2.5.0
+* Tested for compatibility with WooCommerce version 8.3.1
+
+2023-11-27 - version 2.4.9
+* Added compatibility with HPOS
+
+2023-07-26 -  version 2.4.8
+* Resolved the indentation errors throughout the codebase to adhere to the coding standards.
+
+2023-07-14 -  version 2.4.7
+* Improved plugin performance by optimizing order and subscription data import processes to only execute when required, mitigating unnecessary database load.
+
+2023-06-24 - version 2.4.6
+* Added condition to execute queries during sync
+
+2023-06-20 - version 2.4.5
+* Added AJAX callback to clear events
+
+2023-03-04 - version 2.4.4
+* Removed get_item_meta function support
+
+2023-03-01 - version 2.4.3
+* Fixed the undefined variable issues
+
+2023-03-01 - version 2.4.2
+* Added logic to sync the code and fix security vulnerability because of unsanitised data
+
+2023-03-01 - version 2.4.1
+* Added logic to add datalayer
+
+2023-03-01 - version 2.4.0
+* Refactoring code
+
+2023-02-20 - version 2.3.9
+* Removing the flow to set cookies for visitors 
+
+2022-12-13 - version 2.3.8
+* Fixing antipatterns
+
+2022-12-13 - version 2.3.6
+* Handle warning messages
+
+2021-09-02 - version 2.3.2
+* Preventing loading of messenger on admin screen
+
+2021-06-25 - version 2.3.1
+* Added suppport for item based tracking
+
+2021-04-23 - version 2.3.0
+* Added auto update and removed backward compatibility
+
+2021-04-01 - version 2.2.9
+* Added refund tracking
+
+2021-03-05 - version 2.2.8
+* Added lineItemId to handle duplicate custom order
+
+2020-12-18 - version 2.2.7
+* Removed direct call for order properties
+
+2020-09-21 - version 2.2.6
+* Optimized tracking code fetch
+
+2020-07-27 - version 2.2.5
+* Updated plugin to fetch order number
+
+2020-02-25 - version 2.2.3
+* Updated variant tracking info
+
+2020-01-31 - version 2.2.2
+* Added support for canada post tracking
+
+2019-10-24 - version 2.2.0
+* Update plugin action links
+
+2019-10-18 - version 2.1.0
+* Update plugin installation flow
+
+2019-08-30 - version 2.0.3
+* Updated URLs in Shipment & Tracking
+* Updated Queries
+* Made helpdesk plugin compatible with new version
+
+2019-06-01 - version 2.0.2
+* Updated Event Names and added User Details
+* Improvements to mobile version of helpdesk
+* Added animations when transitioning to different screens in the helpdesk
+* Added UI improvements to live chat
+* Added device tracking & channel tracking in CRM
+* Added integration with Woocommerce Shipment Tracking
+* See order & shipment tracking details inside helpdesk
+* Agents can use order information in live chat & email
+
+2018-04-01 - version 2.0.1
+* Subscription Update
+* Launched mobile compatible version of the helpdesk
+* New and improved customer timelines in the helpdesk
+* Converted conversations report in helpdesk
+* Track which live chats resulted in a conversion and track them in helpdesk reports
+
+2019-02-01 - version 2.0.0
+* Updated Event Structure
+* A new improved version of the helpdesk
+* Inrtoduced customer survey on live chat and email conversations
+* Customer satisfaction reports and surveys in helpdesk
+* Filter helpdesk satisfaction reports by star rating and agents
+* New and improved live chat messenger
+* Conversation list in the live chat view
+* Customers can continue live chats on email and vice versa
+
+2018-12-01 - version 1.0.6
+* Tracking all product interactions and display inside helpdesk
+* Option to route chats to colleagues
+* Filter conversations in the helpdesk by tags, user type (customer or visitor) & channels (email or Live chat)
+
+2018-10-01 - version 1.0.4
+* Set up chat bots for visitor qualification
+* Route live chat to different teams based on responses
+* Set a greeting and inrto message in live chat
+* Set chat bots in live chat messenger
+* Configure live chat visibility based on different urls
+* Option to tag colleagues in the helpdesk
+* Add private notes that are not visible to customers
+
+2018-08-01 - version 1.0.2
+* View and manage different views in the helpdesk
+* Leave private notes in the helpdesk
+* Configure live chat launcher
+* Different live chat appearance for logged-in users and visitors
+* Imporvements to mobile comptability of live chat
+* CRM reports to track revenues by channel, source, medium, product, coupon, payment methods and more
+
+2018-06-01 - version 1.0.1
+* Imrpovements to live chat apperance
+* Admin can collect visitor details in live chat
+* Set online and offline Chat hours
+* Begin live chat only after collecting qualification Details
+* Configure live chat widget colors
+
+2018-04-01 - version 1.0.0
+* Launched live chat & Helpdesk 
+* Integration with Woocommerce
+
+
